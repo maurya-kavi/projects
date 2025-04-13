@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="rightContent">
+        <div class="rccard">
+          <div id="rcVideo">
+            <img src="thumbnail.jpg" alt="Preview Video" />
+            <button id="playBtn">▶</button>
+          </div>
+      
+          <div class="rcTabs">
+            <button class="tab active" id="tabPersonal">Personal</button>
+            <button class="tab" id="tabTeams">Teams</button>
+          </div>
+      
+          <!-- Personal View -->
+          <div id="rcPersonal" class="rcSection active">
+            <p id="rcDescription">This Premium course is included in plans</p>
+            <div class="rcprice">
+              <p id="rcDiscountedPrice">&#8377;399</p>
+              <p id="rcOriginalPrice"><strike>&#8377;3099</strike></p>
+              <p id="rcDiscount">87% off</p>
+            </div>
+            <p class="rcTimer"><span style="color: red; font-weight: bold;">45 minutes</span> left at this price!</p>
+            <button id="rcCart">Add to cart</button>
+            <button id="rcBuy">Buy now</button>
+          </div>
+      
+          <!-- Teams View -->
+          <div id="rcTeams" class="rcSection">
+            <p>Team Members:</p>
+            <ul>
+              <li>👤 Alice</li>
+              <li>👤 Bob</li>
+              <li>👤 Charlie</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    <script src="script.js"></script>
+</body>
+</html>

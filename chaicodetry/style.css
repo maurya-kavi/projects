@@ -1,0 +1,117 @@
+.rightContent {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-family: sans-serif;
+  }
+  
+  .rccard {
+    width: 320px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  #rcVideo {
+    position: relative;
+    height: 180px;
+    background: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #rcVideo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  #playBtn {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 32px;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+  }
+  
+  .rcTabs {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .rcTabs .tab {
+    flex: 1;
+    padding: 10px;
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .rcTabs .tab.active {
+    border-bottom: 3px solid #7d4eff;
+    color: #7d4eff;
+  }
+  
+  .rcSection {
+    display: none;
+    padding: 16px;
+  }
+  
+  .rcSection.active {
+    display: block;
+  }
+  
+  .rcprice {
+    display: flex;
+    gap: 10px;
+    align-items: baseline;
+  }
+  
+  #rcDiscountedPrice {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  #rcOriginalPrice {
+    color: #888;
+  }
+  
+  #rcDiscount {
+    color: green;
+  }
+  
+  .rcTimer {
+    margin: 10px 0;
+    color: red;
+    font-weight: bold;
+  }
+  
+  #rcCart, #rcBuy {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  #rcCart {
+    background-color: #7d4eff;
+    color: white;
+  }
+  
+  #rcBuy {
+    background-color: white;
+    border: 2px solid #7d4eff;
+    color: #7d4eff;
+  }
+  
